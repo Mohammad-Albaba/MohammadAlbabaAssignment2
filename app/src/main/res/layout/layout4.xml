@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<androidx.appcompat.widget.Toolbar
+    android:background="#FF5722"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Premium development"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:src="@drawable/premium" />
+    <TextView
+        android:id="@+id/textD"
+        android:layout_below="@+id/image"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="Description: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_toRightOf="@id/textD"
+            android:id="@+id/textt"
+            android:layout_below="@id/image"
+            android:textStyle="bold"
+            android:text="Premium Development is a full_servise softwerdevelopment company of engineers ."
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+
+        android:id="@+id/textP"
+        android:layout_below="@+id/textt"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="Phone:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:textStyle="bold"
+
+            android:layout_alignLeft="@id/textt"
+            android:layout_alignBaseline="@id/textP"
+            android:text=" 0594379575"
+            android:layout_toRightOf="@id/textP"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_below="@id/textt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textG"
+        android:layout_below="@+id/textP"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="Gmail: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_alignLeft="@id/textt"
+            android:textStyle="bold"
+
+            android:layout_alignBaseline="@id/textG"
+            android:layout_toRightOf="@id/textG"
+            android:text="hamdan@premiumdevelopment.co"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
